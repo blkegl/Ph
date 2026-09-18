@@ -3,14 +3,14 @@ on:
   workflow_dispatch:
     inputs:
       patch_source:
-        description: 'Select morphe source'
+        description: 'Select rushi source'
         required: true
-        default: 'morphe'
+        default: 'rushi'
         type: string
   workflow_call:
     inputs:
       patch_source:
-        default: 'morphe'
+        default: 'rushi'
         type: string
       filter_changelog:
         default: false
