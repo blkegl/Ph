@@ -1,7 +1,7 @@
 strict-sigcheck = false
 
 [Google-Photos]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 changelog-keywords = ["Photos"]
